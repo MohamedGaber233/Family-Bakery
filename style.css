@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.clr{
+    clear: both;
+ }
+.nev{
+   
+    padding: 10px;
+
+}
+.nev img{
+    float: left;
+    width: 16%;
+    padding-left:50px; 
+    padding-top: 10px;
+}
+.nev ul{
+    float: right;
+    list-style-type: none;
+    margin: 0%;
+    padding-top:15px ;
+}
+.nev li{
+    float: left;
+    width: 100px;
+}
+.nev li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+text-transform: capitalize;
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+   background-position: center;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
+
+.home .caption{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    
+}
+h1{
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+
+.home .caption p {
+    font-size: 22px;
+}
+
+.home .caption .btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+    
+}
+.home .caption .bg {
+
+    background-color: #C1AB84;
+}
+
+ .home .caption .bn{
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.home .caption .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+ .who-we-are{
+  width: 80%;
+   margin: auto;
+   margin-bottom: 50px;
+ }
+.image {
+ 
+    width: 45%;
+    display: inline-block;
+    
+}
+.text{
+    
+    width: 50%;
+    display: inline-block;
+    padding: 10px 10px 30px 20px;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.who-we-are .image img{
+    width: 100%;
+/*padding: 10px 10px 10px 40px;*/
+
+}
+.text h2{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+
+.text p{
+    line-height: 30px;
+    font-size: 17px;
+    color: RGB(104, 104, 104);
+}
+.text li{
+    line-height: 32px;
+    color: RGB(104, 104, 104);
+}
+.text span{
+    font-size: 17px;
+}
+.img-size img{
+    width: 5%;
+    background-color: white;
+    border: solid rgb(109, 107, 107) 1px;
+    border-radius: 20px;
+
+}
+li {
+    list-style-type: none;
+}
+
+.text-2{
+    display: inline-block;
+    width: 55%;
+    text-align: left;
+    line-height: 30px;
+    padding: 10px 50px 30px;
+    vertical-align:top;
+}
+.our-Location{
+    margin-bottom: 50px;
+    background-color: RGB(248, 248, 248);
+}
+.our-Location .our-location-pos{
+    width: 80%;
+    margin: auto;
+}
+.img-2{
+    width: 44%;
+    display: inline-block;
+} 
+.img-2 img{
+    width: 90%;
+}
+.text-2 h2{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+.text-2 p {
+    font-size: 17px;
+    color:RGB(104, 104, 104) ;
+}
+.our-item{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom:50px; 
+}
+.item{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.item img{
+    width: 80%;
+    
+}
+.our-item p{
+    color:RGB(104, 104, 104) ;
+}
+
+.our-inf{
+background-color:RGB(248, 248, 248) ;
+    margin-bottom: 50px;
+}
+.our-inf .our-inf-size{
+width: 90%;
+margin: auto;
+}
+.contact-inf{
+    width: 50%;
+    float: left;
+    padding: 10px 30px;
+    font-size:17px;
+    line-height: 30px;
+}
+.our-map{
+    width: 50%;
+    float: right;
+    padding: 0 10px;
+}
+
+.our-map .map{
+    width: 100%;
+}
+.contact-inf h2{
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+.contact-inf p , span{
+    color:RGB(104, 104, 104) ;
+}
+.our-inf .contact-inf .img-size img{
+    background-color: #C1AB84;
+    border-radius: 30px;
+}
+.about{
+    background-color: RGB(64, 61, 56);
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.about-size{
+    width: 80%;
+    margin: auto;
+}
+.about-us{
+    width: 20%;
+    float: left;
+    line-height: 30px;
+    
+    
+}
+.special{
+    width: 25%;
+    float: left;
+    line-height: 30px;
+    padding: 0 20px;
+}
+.opn-hour{
+    width: 25%;
+    float: left;
+    line-height: 30px;
+    padding: 0 20px;
+}
+.details{
+    width: 25%;
+    float: left;
+    line-height: 30px;
+    padding: 0 20px;
+}
+.about p{
+    color: RGB(150, 150, 150);
+}
+.about h4{
+    color: white;
+    font-size:18px;
+}
+.about p {
+    font-size:16px;
+}
+.about .img-sizes img{
+    width: 7%;
+}
+
+.bakery-end{
+    background-color:RGB(53, 51, 48) ;
+    text-align: center;
+    padding:100px;
+}
+
+
+.bakery-end img{
+    width: 30%;
+}
+ .icon img{
+    width: 5%;
+    color: white;
+    background-color: RGB(119, 119, 119);
+    border-radius: 50%;
+}
+.bakery-end p{
+    color: RGB(119, 119, 119);
+}
